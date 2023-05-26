@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" rel="stylesheet" />
+  </head>
+  <div class="container">
+    <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand ml-2" href="#">Rezvan Sameti</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          ariaexpanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only"></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact-me">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1>About Me</h1>
+      <div class="row">
+        <div class="col-md-6 text-center mr-3 card">
+          <div class="card-body">
+            <h5 class="card-title">Education</h5>
+            <p class="card-text">
+              I studied physics at univercity and attended SheCodes workshops to
+              learn how to code.
+            </p>
+            <a href="#" class="myLink">Read more</a>
+          </div>
+        </div>
+        <div class="col-md-6 text-center card">
+          <div class="card-body">
+            <h5 class="card-title">Job Experience</h5>
+            <p class="card-text">
+              I have worked as a teacher for 11 years and just started to work
+              on coding projects.
+            </p>
+            <a href="#" class="myLink">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4 text-center">
+        <div class="col-md-4">
+          <img
+            src="images/myWeatherApp.jpg"
+            alt="my weather app"
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="images/PersianCarpet.jpg"
+            alt="Persian Carpet"
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="images/yogurt.png"
+            alt="Greek Yogurt"
+            class="img-fluid p-2 shadow rounded"
+          />
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+
+      <div id="contact-me" class="contactMe">
+        <span class="email">Please email me at:</span>
+        <span class="emailAddress">myJob@gmail.com</span>
+      </div>
+    </body>
+  </div>
+</html>
